@@ -98,56 +98,70 @@ for h in range(height):
 
 ## I420 YV12 
 **format I420**
-> Y
+```Text []
+Y
 U U
 V V
+```
 
 **format YV12**
-> Y
+```Text []
+Y
 V V
 U U
+```
 
 YUV image for 420_I420 and 420_YV12
 <img src="./picture/420_I420.jpg" width="46%"/> <img src="./picture/420_YV12.jpg" width="46%"/>
 
 ## NV12/NV21
 **format NV12**
->Y
+```Text []
+Y
 UVUVUVUV...
 UVUVUVUV...
+```
 
 **format NV21**
->Y
+```Text []
+Y
 VUVUVUVU...
 VUVUVUVU...
+```
 
 YUV image for 420_NV12 and 420_NV21
 <img src="./picture/420_NV12.jpg" width="46%"/> <img src="./picture/420_NV21.jpg" width="46%"/>
 
 ## UYVY, YUY2, YVYU
 **format UYVY**
->channel 0
+```Text []
+channel 0
 UVUVUVUV...
 UVUVUVUV...
->channel 1
+channel 1
 YYYYYYYYY...
 YYYYYYYYY...
+```
 
 **format YUY2**
->channel 0
+```Text []
+channel 0
 YYYYYYYYY...
 YYYYYYYYY...
->channel 1
+channel 1
 UVUVUVUV...
 UVUVUVUV...
+```
 
 **format YVYU**
->channel 0
+```Text []
+channel 0
 YYYYYYYYY...
 YYYYYYYYY...
->channel 1
+channel 1
 VUVUVUVU...
 VUVUVUVU...
+```
 
 UV channel from UYVY, YUY2 and YVYU, left is UV, right is VU.
 <img src="./picture/422_UV.jpg" width="46%"/> <img src="./picture/422_VU.jpg" width="46%"/>
@@ -174,7 +188,7 @@ opencv-python==4.9.0
 ## blogs
 
 [yuv转rgb,420,422,NV12, NV21,I420,YV12,YVYU,YUY2,UYVY, NV16, NV61,NV24, NV42,888,101010图像视频格式](https://zhuanlan.zhihu.com/p/695302926)
-[]()
+[yuv转rgb,420,422,NV12, NV21,I420,YV12,YVYU,YUY2,UYVY](https://blog.csdn.net/m0_50617544/article/details/138358293?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22138358293%22%2C%22source%22%3A%22m0_50617544%22%7D)
 
 ## Reference
 
