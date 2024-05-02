@@ -179,7 +179,7 @@ vertical black line is 0，which has no UV value.
 
 <img src="./picture/422U_blue_projection.png" width="46%"/> <img src="./picture/422V_red_projection.png" width="46%"/>
 
-### converted yuv444 U, V picture with 0 to fill
+### converted yuv444 U, V picture
 
 <img src="./picture/444U_blue_projection.png" width="46%"/> <img src="./picture/444V_red_projection.png" width="46%"/>
 
